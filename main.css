@@ -52,7 +52,8 @@ table {
 
 body {
   background-color: #125463;
-}
+  text-align: center;
+ }
 p {
   max-width: 400px;
   margin: 50px auto;
@@ -65,77 +66,51 @@ main {
   max-width: 400px;
   margin: 50px auto;
   border-radius: 4px;
-  text-align: center;
   padding: 15px 0;
   background-color: #fff;
   position: relative;
-}
-
-
-#szem1, #szem2, #szem3, #szem4 {
-  height: 40px;
-}
-#szaj1, #szaj2, #szaj3, #szaj4, #szaj5, #szaj6, #szaj7 {
-  height: 40px;
-}
-#szemoldok1, #szemoldok2, #szemoldok3, #szemoldok4 {
+  text-align: center;
+}  
+#szem1, #szem2, #szem3, #szem4, #szemoldok1, #szemoldok2, #szemoldok3, #szemoldok4, #szaj1, #szaj2, #szaj3, #szaj4, #szaj5, #szaj6, #szaj7 {
   height: 40px;
 }
 #szemuveg1, #szemuveg2 {
-  height: 60px;
+  height: 70px;
 }
 #fej > img {
   height: 200px;
+  padding-top: 40px;
 }
 #haj1 {
-  height: 200px;
-}
-#haj1 {
-  /* position: absolute; */
-  top: 8px;
+  top: 110px;
   left: 110px;
   position: absolute;
+  height: 200px;
 }
-
-/* Put on stickers! */
 #szem4 {
-  /* position: absolute; */
-  top: 80px;
+  top: 185px;
   left: 170px;
   position: absolute;
 }
-
-#szaj6 {
-  /* position: absolute; */
-  top: 130px;
-  left: 160px;
+#szaj7 {
+  top: 230px;
+  left: 155px;
   position: absolute;
 }
 #szemoldok1 {
-  /* position: absolute; */
-  top: 60px;
+  top: 170px;
   left: 150px;
   position: absolute;
 }
 #szemuveg1 {
-  /* position: absolute; */
-  top: 70px;
-  left: 135px;
+  top: 170px;
+  left: 125px;
   position: absolute;
 }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-}
-.section:hover .overlay {
-  opacity: 1;
+h1, h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: sans-serif;
 }
 
