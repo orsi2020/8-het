@@ -51,9 +51,16 @@ table {
 /* ==== END CSS RESET ==== */
 
 body {
-  background-color: #888;
+  background-color: #125463;
 }
-
+p {
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #fff;
+}
 main {
   max-width: 400px;
   margin: 50px auto;
@@ -64,33 +71,71 @@ main {
   position: relative;
 }
 
-#stickers > img {
+
+#szem1, #szem2, #szem3, #szem4 {
   height: 40px;
 }
-
-#head > img {
+#szaj1, #szaj2, #szaj3, #szaj4, #szaj5, #szaj6, #szaj7 {
+  height: 40px;
+}
+#szemoldok1, #szemoldok2, #szemoldok3, #szemoldok4 {
+  height: 40px;
+}
+#szemuveg1, #szemuveg2 {
+  height: 60px;
+}
+#fej > img {
   height: 200px;
+}
+#haj1 {
+  height: 200px;
+}
+#haj1 {
+  /* position: absolute; */
+  top: 8px;
+  left: 110px;
+  position: absolute;
 }
 
 /* Put on stickers! */
-#eyes-01 {
+#szem4 {
   /* position: absolute; */
   top: 80px;
-  left: 155px;
+  left: 170px;
   position: absolute;
 }
 
-#mouth-01 {
+#szaj6 {
   /* position: absolute; */
   top: 130px;
-  left: 155px;
+  left: 160px;
   position: absolute;
 }
-
-#brow-01 {
+#szemoldok1 {
   /* position: absolute; */
   top: 60px;
   left: 150px;
   position: absolute;
+}
+#szemuveg1 {
+  /* position: absolute; */
+  top: 70px;
+  left: 135px;
+  position: absolute;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.section:hover .overlay {
+  opacity: 1;
 }
 
